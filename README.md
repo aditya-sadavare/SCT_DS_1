@@ -7,10 +7,13 @@ The code imports necessary libraries: matplotlib.pyplot for plotting, pandas for
 
 Read CSV File:
 The pd.read_csv() function reads a CSV file containing population data by age group into a Pandas DataFrame. The usecols parameter specifies the columns to read, which correspond to different age groups.
+
 Convert Data to Numeric:
 df.apply(pd.to_numeric) ensures that all values in the DataFrame are converted to numeric types, which is important for accurate calculations and plotting.
+
 Calculate Total Population:
 df.sum() computes the total population for each age group by summing the values across all rows of the DataFrame.
+
 Print Data:
 The print() statements display the age groups and their corresponding total population values for verification purposes.
 
